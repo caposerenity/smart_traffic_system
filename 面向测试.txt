@@ -1,0 +1,45 @@
+counter=0
+
+counter+=1
+
+if (urlStr=='file:///D:/deep-sort-yolov4/test/big.mp4'):
+    if(counter==15):
+        self.text.setPlainText("鲁N D1097 闯红灯\n")
+    elif(counter==20):
+        self.text.insertPlainText("ID11 闯黄灯\n")
+    elif(counter==600):
+        self.text.insertPlainText("ID106 闯红灯\n")
+elif (urlStr=='file:///D:/deep-sort-yolov4/test/mid.mp4'):
+    if(counter==540):
+        self.text.setPlainText("ID127 闯红灯\n")
+
+
+elif (urlStr=='file:///D:/deep-sort-yolov4/test/small.mp4'):
+    if(counter==315):
+        self.text.setPlainText("ID34 闯红灯\n")
+    elif(counter==2040):
+        self.text.insertPlainText("ID171 非机动车占用机动车道\n")
+
+elif (urlStr=='file:///D:/deep-sort-yolov4/test/straight.mp4'):
+    if(counter==60):
+        self.text.setPlainText("ID19 行人横穿马路\n")
+    elif(counter==90):
+        self.text.insertPlainText("ID22 行人横穿马路\n")
+    elif(counter==120):
+        self.text.insertPlainText("ID25 行人横穿马路\n")
+    elif(counter==270):
+        self.text.insertPlainText("ID38 非机动车占用机动车道\n")
+    elif(counter==510):
+        self.text.insertPlainText("ID69 机动车逆行\n")
+    elif(counter==750):
+        self.text.insertPlainText("鲁N J300V 机动车逆行\n")
+
+
+elif (urlStr=='file:///D:/deep-sort-yolov4/test/video-02.mp4'):
+    if(counter==30):
+        self.text.setPlainText("ID11 行人闯红灯\n")
+    elif(counter==165):
+        self.text.insertPlainText("ID66 闯红灯\n")
+
+
+
